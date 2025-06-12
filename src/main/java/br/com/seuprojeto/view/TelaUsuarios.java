@@ -78,8 +78,8 @@ public class TelaUsuarios extends JFrame {
 
         add(panel);
 
-        // ✨ PASSO 4 VEM AQUI (ADICIONAR OS ACTIONLISTENERS) ✨
-        // Adicione este trecho ao final do método inicializarComponentes()
+        // ✨(ADICIONAR OS ACTIONLISTENERS) ✨
+    
 
 // --- Lógica do Controller (ActionListeners) ---
 
