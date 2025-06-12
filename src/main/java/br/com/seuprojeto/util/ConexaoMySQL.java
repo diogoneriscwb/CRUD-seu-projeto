@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexaoMySQL {
     private static final String URL = "jdbc:mysql://localhost:3306/crud_java";
     private static final String USER = "root"; // Insira seu usuário do MySQL
-    private static final String PASSWORD = "M@$ter10."; // Insira sua senha
+    private static final String PASSWORD = "root"; // Insira sua senha
 
     public static Connection getConexao() {
         try {
