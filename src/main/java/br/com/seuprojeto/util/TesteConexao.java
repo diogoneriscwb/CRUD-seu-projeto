@@ -8,7 +8,7 @@ public class TesteConexao {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/crud_java";
         String usuario = "root";
-        String senha = "M@$ter10.";
+        String senha = "root";
 
         try (Connection conn = DriverManager.getConnection(url, usuario, senha)) {
             if (conn != null) {
